@@ -6,13 +6,13 @@
 #Output for the RG module
 
 output "Name" {
-  value = azurerm_resource_group.Terra_RG.name
+  value = azurerm_resource_group.TerraRg.name
 }
 
 output "Location" {
-  value = azurerm_resource_group.Terra_RG.location
+  value = azurerm_resource_group.TerraRg.location
 }
 
 output "Id" {
-  value = azurerm_resource_group.Terra_RG.id
+  value = azurerm_resource_group.TerraRg.id
 }

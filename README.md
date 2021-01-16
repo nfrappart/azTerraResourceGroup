@@ -5,7 +5,7 @@ Simple module to create a Resource Group
 
 ```hcl
 module "RG-test" {
-  source = "git::ssh://git@ssh.dev.azure.com/v3/Covage-dsi-infra/iac-terraform-modules/TerraResourceGroup"
+  source = "github.com/nfrappart/azTerraResourceGroup"
     RgName = "RG-test_Nate-FR
     RgLocation = "westeurope"
     ProvisioningDateTag = timestamp()

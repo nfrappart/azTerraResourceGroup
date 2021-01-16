@@ -4,7 +4,7 @@
 
 
 #Creating a Resource Group
-resource "azurerm_resource_group" "Terra_RG" {
+resource "azurerm_resource_group" "TerraRg" {
     name        = var.RgName
     location    = var.RgLocation
 

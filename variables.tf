@@ -10,12 +10,10 @@ variable "RgName" {
   default = "DefaultRG"
 }
 
-
 variable "RgLocation" {
   type    = string
   default = "westeurope"
 }
-
 
 variable "EnvironmentTag" {
   type    = string
