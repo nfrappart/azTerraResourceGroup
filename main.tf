@@ -10,7 +10,6 @@ resource "azurerm_resource_group" "TerraRg" {
 
     tags = {
     Environment         = var.EnvironmentTag
-    Usage               = var.EnvironmentUsageTag
     Owner               = var.OwnerTag
     ProvisioningDate    = var.ProvisioningDateTag
     ProvisioningMode    = var.ProvisioningModeTag
