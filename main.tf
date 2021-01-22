@@ -2,6 +2,9 @@
 # Module for RG creation #
 ##########################
 
+locals = {
+  ProvisioningDateTag = timestamp()
+}
 
 #Creating a Resource Group
 resource "azurerm_resource_group" "TerraRg" {
@@ -11,7 +14,7 @@ resource "azurerm_resource_group" "TerraRg" {
     tags = {
     Environment         = var.EnvironmentTag
     Owner               = var.OwnerTag
-    ProvisioningDate    = var.ProvisioningDateTag
+    ProvisioningDate    = local.ProvisioningDateTag
     ProvisioningMode    = var.ProvisioningModeTag
     }
     lifecycle {
