@@ -25,10 +25,6 @@ variable "OwnerTag" {
   default = "Nate"
 }
 
-variable "ProvisioningDateTag" {
-  type    = string
-}
-
 variable "ProvisioningModeTag" {
   type    = string
   default = "Terraform"

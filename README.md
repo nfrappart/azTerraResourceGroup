@@ -8,6 +8,5 @@ module "RG-test" {
   source = "github.com/nfrappart/azTerraResourceGroup?ref=v1.0.0"
   RgName = "rg-test_Nate-FR"
   RgLocation = "westeurope"
-  ProvisioningDateTag = timestamp()
 }
 ```
