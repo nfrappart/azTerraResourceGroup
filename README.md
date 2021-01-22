@@ -5,7 +5,7 @@ Simple module to create a Resource Group
 
 ```hcl
 module "RG-test" {
-  source = "github.com/nfrappart/azTerraResourceGroup?ref=v1.0.0"
+  source = "github.com/nfrappart/azTerraResourceGroup?ref=v1.0.1"
   RgName = "rg-test_Nate-FR"
   RgLocation = "westeurope"
 }
