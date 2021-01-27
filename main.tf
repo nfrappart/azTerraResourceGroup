@@ -2,7 +2,7 @@
 # Module for RG creation #
 ##########################
 
-locals = {
+locals {
   ProvisioningDateTag = timestamp()
 }
 
