@@ -29,3 +29,8 @@ variable "ProvisioningModeTag" {
   type    = string
   default = "Terraform"
 }
+
+variable "UsageTag" {
+  type = string
+  default = "PoC usage only"
+}
